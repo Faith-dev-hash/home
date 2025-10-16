@@ -120,13 +120,11 @@ const WhyChooseSection: React.FC = () => {
             Expertise in multiple industries.
           </div>
         </div>
-        <div className="items-center rounded border bg-[rgba(9,116,132,0.04)] self-stretch flex min-w-60 gap-2.5 overflow-hidden w-[472px] my-auto px-4 py-2 border-solid border-[#097484] max-md:max-w-full">
-          <div className="text-[#181818] self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
+        <div className="items-center rounded border bg-[rgba(9,116,132,0.04)] self-stretch flex gap-2.5 overflow-hidden my-auto px-4 py-2 border-solid border-[#097484]">
+          <div className="text-[#181818]">
             Tailored solutions for unique challenges
           </div>
-        </div>
-        <div className="items-center rounded border bg-[rgba(9,116,132,0.04)] self-stretch flex min-w-60 gap-2.5 overflow-hidden w-[472px] my-auto px-4 py-2 border-solid border-[#097484] max-md:max-w-full">
-          <div className="text-[#181818] self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
+          <div className="text-[#181818]">
             Proven success with leading organizations
           </div>
         </div>

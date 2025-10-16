@@ -22,11 +22,6 @@ const HeroSection: React.FC = () => {
           Free Consultation
         </button>
       </div>
-      <img
-        src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/bea0d2baa510d7bbfcf0c021155da3ddfa3b03c5?placeholderIfAbsent=true"
-        alt="Decorative wave pattern"
-        className="aspect-[7.35] object-contain w-[1440px] absolute z-0 -translate-x-2/4 translate-y-[0%] h-[382px] left-2/4 bottom-0 max-md:max-w-full"
-      />
     </section>
   );
 };

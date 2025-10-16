@@ -50,14 +50,23 @@ const MetricsSection: React.FC = () => {
           Memory in number
         </h2>
         <div className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap mt-10 max-md:max-w-full">
-          {metrics.map((metric, index) => (
+          <MetricCard
+            value={metrics[0].value}
+            title={metrics[0].title}
+            description={metrics[0].description}
+          />
+          <div className="flex gap-[40px_100px]">
             <MetricCard
-              key={index}
-              value={metric.value}
-              title={metric.title}
-              description={metric.description}
+              value={metrics[1].value}
+              title={metrics[1].title}
+              description={metrics[1].description}
             />
-          ))}
+            <MetricCard
+              value={metrics[2].value}
+              title={metrics[2].title}
+              description={metrics[2].description}
+            />
+          </div>
         </div>
       </div>
     </section>

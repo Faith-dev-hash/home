@@ -86,15 +86,26 @@ const TestimonialsSection: React.FC = () => {
         </h2>
         <div className="flex w-full flex-col items-stretch mt-10 max-md:max-w-full">
           <div className="flex w-full items-center gap-5 justify-center flex-wrap max-md:max-w-full">
-            {testimonials.map((testimonial, index) => (
+            <TestimonialCard
+              quote={testimonials[0].quote}
+              name={testimonials[0].name}
+              role={testimonials[0].role}
+              avatar={testimonials[0].avatar}
+            />
+            <div className="flex gap-5">
               <TestimonialCard
-                key={index}
-                quote={testimonial.quote}
-                name={testimonial.name}
-                role={testimonial.role}
-                avatar={testimonial.avatar}
+                quote={testimonials[1].quote}
+                name={testimonials[1].name}
+                role={testimonials[1].role}
+                avatar={testimonials[1].avatar}
               />
-            ))}
+              <TestimonialCard
+                quote={testimonials[2].quote}
+                name={testimonials[2].name}
+                role={testimonials[2].role}
+                avatar={testimonials[2].avatar}
+              />
+            </div>
           </div>
           <div className="self-center flex items-center gap-1 mt-4" role="tablist" aria-label="Testimonial navigation">
             {[0, 1, 2, 3].map((index) => (
