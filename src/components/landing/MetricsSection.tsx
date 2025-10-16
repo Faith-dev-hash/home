@@ -49,7 +49,7 @@ const MetricsSection: React.FC = () => {
         <h2 className="text-4xl font-bold leading-none bg-clip-text max-md:max-w-full">
           Memory in number
         </h2>
-        <div className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap mt-10 max-md:max-w-full">
+        <div className="flex w-full items-center gap-[40px_100px] justify-center flex-wrap mt-10 max-md:max-w-full">
           <MetricCard
             value={metrics[0].value}
             title={metrics[0].title}

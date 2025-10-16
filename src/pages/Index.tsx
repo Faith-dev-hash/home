@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '@/components/landing/Header';
 import HeroSection from '@/components/landing/HeroSection';
+import CloudDivider from '@/components/landing/CloudDivider';
 import SponsorsSection from '@/components/landing/SponsorsSection';
 import CTASection from '@/components/landing/CTASection';
 import AboutSection from '@/components/landing/AboutSection';
@@ -16,6 +17,7 @@ const Index: React.FC = () => {
       <Header />
       <main>
         <HeroSection />
+        <CloudDivider />
         <SponsorsSection />
         <CTASection />
         <AboutSection />
